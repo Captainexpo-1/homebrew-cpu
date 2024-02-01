@@ -14,7 +14,7 @@ All those individual controls (Like write enable, output enable, etc) are called
 
 The control unit is the governing body of all the modules. It decides which microinstructions to activate and which ones to disable based on the current instruction being processed. For example, the instruction "swap" might load the value of the A register into the B register by using the Load_B, and Output_A microinstructions. 
 
-But how does it know what to activate? Well, it's quite simple really, the current instruction is fed into the control unit as two bytes. One for the opcode (the ID of the instruction) and the 8-bit memory address it's operating on. It also has a counter called something like the t-value which determines which step of the instruction is being executed. It then feeds the opcode and t-value into a ROM that is pre-programmed with all the microinstructions necessary to run the command<sup>[1](#notes)</sup>.
+But how does it know what to activate? First, the current instruction is fed into the control unit as two bytes. One for the opcode (the ID of the instruction) and the 8-bit memory address it's operating on. It also has a counter called something like the t-value which determines which step of the instruction is being executed. It then feeds the opcode and t-value into a ROM that is pre-programmed with all the microinstructions necessary to run the command<sup>[1](#notes)</sup>.
 
 ![Microinstruction Fetching](./images/MicroinstructionFetch.gif)
 
