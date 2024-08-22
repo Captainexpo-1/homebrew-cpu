@@ -12,7 +12,7 @@ The entire computer is built first as a bunch of "modules" including (but not li
 
 - [Arithmetic Logic Unit (ALU)](./Modules/ALU/ALU.md)
 
-- [Control unit (This one is special)](./Modules/ControlUnit/ControlU
+- [Control unit (This one is special)](./Modules/ControlUnit/ControlUnit.md)
 
 
 
