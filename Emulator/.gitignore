@@ -1,0 +1,32 @@
+# Ignore build directory
+build/
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeScripts/
+Testing/
+CTestTestfile.cmake
+install_manifest.txt
+
+# Ignore binary files
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.out
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.bak
+
+# Ignore user-specific files
+*.user
+*.DS_Store
+.vscode/
+__pycache__/
